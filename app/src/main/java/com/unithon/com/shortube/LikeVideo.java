@@ -1,4 +1,4 @@
-package com.unithon.com.shortube;
+package com.unithon.com.shortube.entity;
 
 /*
  * Copyright (C) 2017 Google Inc.

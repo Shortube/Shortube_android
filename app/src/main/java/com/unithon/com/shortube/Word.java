@@ -1,4 +1,4 @@
-package com.unithon.com.shortube.entity;
+package com.unithon.com.shortube;
 
 
 import android.arch.persistence.room.ColumnInfo;

@@ -6,5 +6,11 @@
     <color name="gradientStartColor">#BA6DF1</color>
     <color name="gradientEndColor">#5B68FF</color>
     <color name="defaultGray">#4c000000</color>
+<<<<<<< .merge_file_a06908
     <color name="button">#ffbc00</color>
+=======
+    <color name="button">#865fff</color>
+    <color name="buttonLabel">#d3d3d3</color>
+
+>>>>>>> .merge_file_a10108
 </resources>

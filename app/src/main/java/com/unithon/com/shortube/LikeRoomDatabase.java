@@ -1,4 +1,4 @@
-package com.example.android.roomwordssample;
+package com.unithon.com.shortube;
 
 import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Room;
@@ -40,7 +40,7 @@ public abstract class LikeRoomDatabase {
             super.onOpen(db);
             // If you want to keep the data through app restarts,
             // comment out the following line.
-            new LikeRoomDatabase.PopulateDbAsync(INSTANCE).execute();
+            new PopulateDbAsync(INSTANCE).execute();
         }
     };
 

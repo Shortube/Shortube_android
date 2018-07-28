@@ -1,4 +1,4 @@
-package com.example.android.roomwordssample;
+package com.unithon.com.shortube;
 
 
 
@@ -22,7 +22,7 @@ import android.widget.Toast;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity {
+public class DBActivity extends AppCompatActivity {
 
     public static final int NEW_WORD_ACTIVITY_REQUEST_CODE = 1;
 
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_db_activity);
 
 
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, NewWordActivity.class);
+                Intent intent = new Intent(DBActivity.this, NewWordActivity.class);
                 startActivityForResult(intent, NEW_WORD_ACTIVITY_REQUEST_CODE);
             }
         });

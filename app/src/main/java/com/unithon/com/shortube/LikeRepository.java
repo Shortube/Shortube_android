@@ -1,4 +1,4 @@
-package com.example.android.roomwordssample;
+package com.unithon.com.shortube;
 
 import android.app.Application;
 import android.arch.lifecycle.LiveData;
@@ -28,7 +28,7 @@ public class LikeRepository {
     // Like this, Room ensures that you're not doing any long running operations on the main
     // thread, blocking the UI.
 
-    public void likeInsert(LikeVideo likeVideo) {new LikeRepository.likeInsertAsyncTask(mWordDao).execute(likeVideo);}
+    public void likeInsert(LikeVideo likeVideo) {new likeInsertAsyncTask(mWordDao).execute(likeVideo);}
 
 
     private static class likeInsertAsyncTask extends AsyncTask<LikeVideo, Void, Void> {

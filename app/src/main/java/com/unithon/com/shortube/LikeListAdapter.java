@@ -1,4 +1,4 @@
-package com.example.android.roomwordssample;
+package com.unithon.com.shortube;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

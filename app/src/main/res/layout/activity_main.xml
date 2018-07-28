@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<<<<<<< HEAD
 <!-- Copyright 2017 Google Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,6 +18,8 @@ limitations under the License. -->
 <!-- Uses the Basic Activity Template.
 Want to minimize unrelated busy work where students just remove code.
 So, we are leaving the template code in. -->
+=======
+>>>>>>> 13d47b2d720feff4862202403e72a566e54b47a6
 
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -49,4 +52,8 @@ So, we are leaving the template code in. -->
         android:layout_margin="@dimen/fab_margin"
         android:src="@drawable/ic_add_black_24dp" />
 
+<<<<<<< HEAD
 </android.support.design.widget.CoordinatorLayout>
+=======
+</android.support.design.widget.CoordinatorLayout>
+>>>>>>> 13d47b2d720feff4862202403e72a566e54b47a6

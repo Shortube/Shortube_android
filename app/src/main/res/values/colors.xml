@@ -6,5 +6,5 @@
     <color name="gradientStartColor">#BA6DF1</color>
     <color name="gradientEndColor">#5B68FF</color>
     <color name="defaultGray">#4c000000</color>
-    <color name="button">#865fff</color>
+    <color name="button">#ffbc00</color>
 </resources>

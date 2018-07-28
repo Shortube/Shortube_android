@@ -25,7 +25,8 @@
         android:layout_marginRight="16dp"
         android:background="@drawable/shape"
         android:clickable="true"
-        app:srcCompat="@drawable/ic_launcher_foreground"
+        app:backgroundTint="@color/button"
+        app:srcCompat="@drawable/floating_icon"
         tools:ignore="VectorDrawableCompat" />
 
 </FrameLayout>

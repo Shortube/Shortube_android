@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.unithon.com.shortube.R;
+import com.unithon.com.shortube.video.inter.VideoHighlightTrigger;
 
 import java.util.List;
 
@@ -15,12 +16,14 @@ import java.util.List;
  * Created by macbook on 2018. 7. 29..
  */
 
-public class HighlighListAdapter extends RecyclerView.Adapter<HighlightListViewHolder> {
+public class HighlightListAdapter extends RecyclerView.Adapter<HighlightListViewHolder> {
 
     private List<HighlightData> highlightDataList;
     private Context context;
 
-    public HighlighListAdapter(Context context) {
+    private VideoHighlightTrigger videoHighlightTrigger;
+
+    public HighlightListAdapter(Context context) {
         this.context = context;
     }
 
@@ -34,7 +37,7 @@ public class HighlighListAdapter extends RecyclerView.Adapter<HighlightListViewH
 
     @Override
     public void onBindViewHolder(@NonNull HighlightListViewHolder holder, int position) {
-        holder.setData(highlightDataList.get(position), context);
+        holder.setData(highlightDataList.get(position), context, videoHighlightTrigger);
     }
 
     @Override
@@ -44,5 +47,9 @@ public class HighlighListAdapter extends RecyclerView.Adapter<HighlightListViewH
 
     public void setHighlightDataList(List<HighlightData> list){
         this.highlightDataList = list;
+    }
+
+    public void setVideoHighlightTrigger(VideoHighlightTrigger videoHighlightTrigger){
+        this.videoHighlightTrigger = videoHighlightTrigger;
     }
 }

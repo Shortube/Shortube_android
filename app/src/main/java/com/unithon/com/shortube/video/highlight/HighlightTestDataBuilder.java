@@ -19,8 +19,8 @@ public class HighlightTestDataBuilder {
                     "aaa",
                     "aaa",
                     "aaa",
-                    1,
-                    2
+                    10,
+                    20
             );
             highlightDataList.add(highlightData);
         }

@@ -3,13 +3,12 @@ package com.unithon.com.shortube.video.comment;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.unithon.com.shortube.R;
-import com.unithon.com.shortube.video.VideoSectionJumper;
+import com.unithon.com.shortube.video.inter.VideoSectionJumper;
 
 import java.util.List;
 
@@ -38,7 +37,7 @@ public class VideoCommentListAdapter extends RecyclerView.Adapter<VideoCommentVi
 
     @Override
     public void onBindViewHolder(@NonNull VideoCommentViewHolder holder, int position) {
-        holder.setData(videoCommentList.get(position), videoSectionJumper);
+        holder.setData(mContext, videoCommentList.get(position), videoSectionJumper);
     }
 
     @Override

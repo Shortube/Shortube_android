@@ -2,11 +2,11 @@
 <resources>
 
     <dimen name="video_comment_nickname_size">15dp</dimen>
-    <dimen name="video_comment_content_size">17dp</dimen>
+    <dimen name="video_comment_content_size">12dp</dimen>
 
     <dimen name="video_comment_end_padding">15dp</dimen>
     <dimen name="video_comment_start_padding">15dp</dimen>
-    <dimen name="video_comment_top_padding">7dp</dimen>
+    <dimen name="video_comment_top_padding">12dp</dimen>
 
     <dimen name="video_comment_line_spacing">3dp</dimen>
 
@@ -21,4 +21,9 @@
 
 
     <dimen name="video_comment_viewholder_bottom_padding">22dp</dimen>
+
+    <dimen name="video_profile_thumb_start_padding">17dp</dimen>
+    <dimen name="video_profile_title_start_padding">12dp</dimen>
+
+    <dimen name="video_profile_top_padding">17dp</dimen>
 </resources>

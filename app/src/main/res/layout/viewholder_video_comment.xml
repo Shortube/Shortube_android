@@ -5,10 +5,12 @@
     android:orientation="horizontal"
     android:paddingBottom="@dimen/video_comment_viewholder_bottom_padding">
 
-    <ImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/video_comment_profile_thumb"
-        android:layout_width="40dp"
-        android:layout_height="40dp" />
+        android:paddingStart="@dimen/video_comment_start_padding"
+        android:paddingTop="@dimen/video_comment_top_padding"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -52,23 +54,57 @@
 
 
         <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
 
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_like"
+                    android:src="@drawable/like"
+                    android:paddingStart="@dimen/video_comment_start_padding"
+                    android:paddingTop="@dimen/video_comment_top_padding"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:id="@+id/tv_like"
+                    android:text="14"
+                    android:paddingTop="2dp"
+                    android:paddingStart="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
             <ImageView
-                android:src="@drawable/ic_launcher_background"
+                android:id="@+id/iv_dislike"
+                android:src="@drawable/dislike"
                 android:paddingStart="@dimen/video_comment_start_padding"
                 android:paddingTop="@dimen/video_comment_top_padding"
                 android:layout_width="30dp"
                 android:layout_height="30dp" />
 
-            <ImageView
-                android:src="@drawable/ic_launcher_background"
-                android:paddingStart="@dimen/video_comment_start_padding"
-                android:paddingTop="@dimen/video_comment_top_padding"
-                android:layout_width="30dp"
-                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/tv_dislike"
+                android:text="5"
+                android:paddingTop="2dp"
+                android:paddingStart="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
 
 
         </LinearLayout>

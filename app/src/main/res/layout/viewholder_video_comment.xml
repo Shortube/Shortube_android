@@ -76,7 +76,7 @@
                 <TextView
                     android:id="@+id/tv_like"
                     android:text="14"
-                    android:paddingTop="2dp"
+                    android:paddingTop="@dimen/video_comment_top_padding"
                     android:paddingStart="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -100,7 +100,7 @@
             <TextView
                 android:id="@+id/tv_dislike"
                 android:text="5"
-                android:paddingTop="2dp"
+                android:paddingTop="@dimen/video_comment_top_padding"
                 android:paddingStart="3dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />

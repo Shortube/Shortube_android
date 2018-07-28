@@ -8,12 +8,14 @@ public class Items {
     Uri Profile;
     String title;
     String describe;
+    int num;
 
-    public Items(Uri Thumbnails, Uri Profile, String title, String describe){
+    public Items(Uri Thumbnails, Uri Profile, String title, String describe, int num){
         this.Thumbnails = Thumbnails;
         this.Profile = Profile;
         this.title = title;
         this.describe = describe;
+        this.num = num;
     }
 
     public Uri getThumbnails() {
@@ -46,5 +48,13 @@ public class Items {
 
     public void setDescribe(String describe) {
         this.describe = describe;
+    }
+
+    public int getNum() {
+        return num;
+    }
+
+    public void setNum(int num) {
+        this.num = num;
     }
 }

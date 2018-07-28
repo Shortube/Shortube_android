@@ -13,6 +13,7 @@ public class RecyclerViewHolder extends RecyclerView.ViewHolder {
     public ImageView mProfile;
     public TextView mtitle;
     public TextView mdescribe;
+    public TextView mNum;
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public RecyclerViewHolder(View itemView) {
         super(itemView);
@@ -20,6 +21,7 @@ public class RecyclerViewHolder extends RecyclerView.ViewHolder {
         mProfile = (ImageView)itemView.findViewById(R.id.profile);
         mtitle = (TextView)itemView.findViewById(R.id.title);
         mdescribe = (TextView)itemView.findViewById(R.id.subscribe);
-        mProfile.setClipToOutline(true);
+        mNum = (TextView)itemView.findViewById(R.id.num);
+
     }
 }

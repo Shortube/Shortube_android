@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="video_comment_nickname_size">15dp</dimen>
+    <dimen name="video_comment_content_size">17dp</dimen>
+
+    <dimen name="video_comment_end_padding">15dp</dimen>
+    <dimen name="video_comment_start_padding">15dp</dimen>
+    <dimen name="video_comment_top_padding">7dp</dimen>
+
+    <dimen name="video_comment_line_spacing">3dp</dimen>
+
+
+    <dimen name="video_highlight_top_padding">16dp</dimen>
+    <dimen name="video_highlight_bottom_padding">17dp</dimen>
+    <dimen name="video_highlight_end_padding">11dp</dimen>
+    <dimen name="video_highlight_start_padding">15dp</dimen>
+
+
+    <dimen name="video_comment_list_top_padding">17dp</dimen>
+
+
+    <dimen name="video_comment_viewholder_bottom_padding">22dp</dimen>
+</resources>

@@ -79,5 +79,3 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
         else return 0;
     }
 }
-
-
